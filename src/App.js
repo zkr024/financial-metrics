@@ -1,3 +1,5 @@
+import './app.css';
+
 function App() {
   const x = 'test';
   return (
