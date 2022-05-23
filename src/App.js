@@ -4,6 +4,7 @@ import MainSite from './components/frontScreen/MainSite';
 import Dates from './components/details/Dates';
 import Details from './components/details/Details';
 import NavBar from './components/navBar/NavBar';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/dates/:id" element={<Dates />} />
           <Route path="/details/:id" element={<Details />} />
         </Routes>
+        <Footer />
       </div>
     </BrowserRouter>
   );
