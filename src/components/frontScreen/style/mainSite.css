@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #85aaf0;
+  margin: 0;
+  padding: 0;
+}
+
+.accessInfo {
+  text-align: center;
+  user-select: none;
+  text-shadow: 1px 1px 4px #fff;
+  margin: 5px;
+}
+
+.companyList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}

@@ -5,6 +5,8 @@ import { getInfo } from '../../redux/mainSite/mainSite';
 import SearchArea from './SearchArea';
 import CompData from './ComData';
 
+import './style/mainSite.css';
+
 const companyList = (data) => {
   const comps = (
     <CompData

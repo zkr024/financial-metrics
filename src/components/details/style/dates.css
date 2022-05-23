@@ -1,0 +1,30 @@
+.lastFive {
+  height: 300px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+
+.dates {
+  border-radius: 20px;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+}
+
+.dates:nth-child(2n + 1) {
+  background-color: #4369b0;
+}
+
+.dates:nth-child(2n + 2) {
+  background-color: #5a8be7;
+}
+
+.dateLink {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}

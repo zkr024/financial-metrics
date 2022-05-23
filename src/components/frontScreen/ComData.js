@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Aos from 'aos';
 
 import 'aos/dist/aos.css';
+import './style/comData.css';
 
 const CompData = (props) => {
   const {

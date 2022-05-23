@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 
+import './style/topInfo.css';
+
 const TopInfo = (props) => {
   const { id } = props;
 
