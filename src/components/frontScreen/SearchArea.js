@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 import { FaSearch } from 'react-icons/fa';
 import { AiOutlineClose } from 'react-icons/ai';
 
+import './style/searchArea.css';
+
 const SearchArea = (props) => {
   const {
     inputData, getData, searchComp, clearInput,

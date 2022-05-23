@@ -1,0 +1,15 @@
+.screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.footer {
+  background-color: #4369b0;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+}

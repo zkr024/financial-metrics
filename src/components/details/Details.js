@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import Aos from 'aos';
 import { BiChevronLeft } from 'react-icons/bi';
 import TopInfo from './TopInfo';
+import './style/details.css';
 
 const Details = () => {
   const { id } = useParams();

@@ -5,6 +5,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { loadInfo } from '../../redux/quarters/quartes';
 import { getDate } from '../../redux/details/details';
 import TopInfo from './TopInfo';
+import './style/dates.css';
 
 const Dates = () => {
   const { id } = useParams();

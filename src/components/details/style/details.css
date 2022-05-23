@@ -1,0 +1,61 @@
+.mainContainer {
+  position: relative;
+}
+
+.backBtn {
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  top: 90px;
+}
+
+.detailsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.dataList {
+  list-style: none;
+  border-bottom: none;
+  padding: 0;
+  width: 100%;
+}
+
+.financialDetails {
+  display: flex;
+  padding: 0 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.financialDetails:nth-child(2n + 1) {
+  background-color: #4369b0;
+}
+
+.financialDetails:nth-child(2n + 2) {
+  background-color: #5a8be7;
+}
+
+.key,
+.value {
+  height: 35px;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+
+.key {
+  width: 60%;
+  border-right: 3px solid #85aaf0;
+}
+
+.value {
+  width: 40%;
+  margin-left: 3px;
+}
