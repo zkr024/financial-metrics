@@ -1,0 +1,31 @@
+.header {
+  background-color: #4369b0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  padding: 10px;
+}
+
+.homeIcon {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 90%;
+  width: 34px;
+  margin: 2px 0 0 2px;
+  background-color: #5a8be7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.home {
+  color: #fff;
+  font-size: 20px;
+}
+
+.titleHeader {
+  text-align: center;
+  color: #fff;
+}

@@ -1,11 +1,18 @@
-import './app.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import MainSite from './components/frontScreen/MainSite';
+import NavBar from './components/navBar/NavBar';
 
 function App() {
-  const x = 'test';
   return (
-    <div className="App">
-      {x}
-    </div>
+    <BrowserRouter>
+      <div className="screen">
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<MainSite />} />
+        </Routes>
+      </div>
+    </BrowserRouter>
   );
 }
 
