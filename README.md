@@ -22,7 +22,7 @@
 
 ## Live Demo
 
-soon
+[Financial Metrics](https://peppy-tarsier-ec49cb.netlify.app/)
 
 ## Getting Started
 
