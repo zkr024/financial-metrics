@@ -20,6 +20,10 @@
 - React Redux
 - Github and Gitflow
 
+## Video Presentation:
+
+- [click here](https://www.loom.com/share/77e6794441274926a0fb91ddd286d0a9)
+
 ## Live Demo
 
 [Financial Metrics](https://peppy-tarsier-ec49cb.netlify.app/)
