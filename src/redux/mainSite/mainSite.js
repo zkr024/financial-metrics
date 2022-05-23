@@ -1,6 +1,6 @@
 import company from './company';
 
-const COMPANIES = 'api-test/mainSite/COMPANIES';
+const COMPANIES = 'financial-metrics/mainSite/COMPANIES';
 
 const companyReducer = (state = [], action) => {
   switch (action.type) {
