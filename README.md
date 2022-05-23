@@ -12,7 +12,6 @@
   > Image.
 - The images were taken from the companies sites
 - To access the company details I used the end point Income Statement. It works with the company symbol.
-- Based on Nelson [Sakwa on Behance](https://www.behance.net/sakwadesignstudio) design.
 
 ## Built With:
 
@@ -26,7 +25,7 @@
 
 ## Live Demo
 
-[Financial Metrics](https://peppy-tarsier-ec49cb.netlify.app/)
+- [Financial Metrics](https://peppy-tarsier-ec49cb.netlify.app/)
 
 ## Getting Started
 
@@ -59,9 +58,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Based on Nelson [Sakwa on Behance](https://www.behance.net/sakwadesignstudio) design.
 
 ## 📝 License
 
